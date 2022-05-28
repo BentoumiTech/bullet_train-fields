@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-require("daterangepicker/daterangepicker.css");
+import "daterangepicker/daterangepicker.css";
 
 // requires jQuery, moment, might want to consider a vanilla JS alternative
 import 'daterangepicker';
