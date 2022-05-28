@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-require("intl-tel-input/build/css/intlTelInput.css");
+import "intl-tel-input/build/css/intlTelInput.css";
 import intlTelInput from 'intl-tel-input';
 
 export default class extends Controller {
